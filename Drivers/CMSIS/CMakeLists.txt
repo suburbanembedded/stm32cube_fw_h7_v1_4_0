@@ -4,6 +4,7 @@ add_library(stm32h7xx_cmsis
 
 target_include_directories(stm32h7xx_cmsis PUBLIC
 	${CMAKE_CURRENT_SOURCE_DIR}/Include
+	${CMAKE_CURRENT_SOURCE_DIR}/Device/ST/
 	${CMAKE_CURRENT_SOURCE_DIR}/Device/ST/STM32H7xx/Include
 	${CMAKE_CURRENT_SOURCE_DIR}/../STM32H7xx_HAL_Driver/Inc
 )
