@@ -63,7 +63,7 @@ target_link_libraries(freertos_v10_heap5
 
 target_link_libraries(freertos_v10_cmsis
 	freertos_v10
-	stm32h7xx_cmsis
+	stm32h750xx_cmsis
 )
 
 target_include_directories(freertos_v10_cmsis PUBLIC

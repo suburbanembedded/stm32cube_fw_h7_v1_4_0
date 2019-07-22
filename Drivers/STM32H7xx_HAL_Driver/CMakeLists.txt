@@ -81,7 +81,7 @@ target_include_directories(stm32h7xx_hal PUBLIC
 )
 
 target_link_libraries(stm32h7xx_hal
-	stm32h7xx_cmsis
+	stm32h750xx_cmsis
 )
 
 add_library(stm32h7xx_ll
@@ -96,5 +96,5 @@ target_include_directories(stm32h7xx_ll PUBLIC
 )
 
 target_link_libraries(stm32h7xx_ll
-	stm32h7xx_cmsis
+	stm32h750xx_cmsis
 )
